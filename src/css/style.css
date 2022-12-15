@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'LCD';
+	src: url('./lcd.ttf');
+}
+
+body {
+    margin: 10px;
+}
+
+.previous {
+    top:12px;
+    right: 20px;
+    margin-left: 20px;
+    color: #ddd;
+    position: absolute;
+}
+
+input.result {
+    border-radius: 0;
+    font-size: 50px;
+    font-family: 'LCD', 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 10px 10px 5px 10px;
+    box-sizing: border-box;
+    text-align: right;
+    border: none;
+    background: rgb(102, 104, 231);
+    color: #eee;
+}
+
+.calc-button {
+    width: 100%;
+    height: 3.5em;
+    border: 1px solid #222231;
+    background: #4c4c74;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.calc-button:hover {
+    background: #1dcaca;
+    transition: 0.5s;
+}
+
+.operator {
+    background: #3e3e5e;
+}
+
+.column-3 {
+    width: 75%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-1 {
+    width: 25%;
+    float: left;
+}
